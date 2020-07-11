@@ -87,7 +87,7 @@ body {
     font-family: "librebaskerville-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
-    color: #5f5f5f;
+    color: white;
     margin: 0;
     padding: 0;
 }
@@ -1407,7 +1407,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     top: 50%;
     right: auto;
     bottom: auto;
-    background-color: white;
+    background-color: black;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     font: 0/0 a;
@@ -2569,6 +2569,11 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 
+.contactname {
+	color: white!important;
+	font-size: 2rem!important;
+}
+
 .s-contact {
     background-color: #151515;
     background-image: url("../images/contact-bg.jpg");
@@ -2576,7 +2581,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(white);
     position: relative;
 }
 
@@ -2595,7 +2600,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .section-intro p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
@@ -2915,13 +2920,14 @@ footer a:hover, footer a:focus {
 
 .footer-bottom .copyright span {
     display: inline-block;
+	color: rgba(253,253,253,1.00);
 }
 
 .footer-bottom .copyright span::after {
     content: "|";
     display: inline-block;
     padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.1);
+    
 }
 
 .footer-bottom .copyright span:last-child::after {
